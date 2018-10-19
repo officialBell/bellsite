@@ -1,0 +1,140 @@
+body {
+padding: 0;
+margin: 0;
+background-color: #000;
+font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+font-weight: 400;
+letter-spacing: 4px;
+}
+
+h1 a {
+text-decoration: none;
+display: inline-block;
+padding: 20px;
+font-size: 200px;
+}
+h1 a:hover {
+cursor: pointer;
+}
+
+h2 {
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 5px;
+}
+
+* { box-sizing: border-box; }
+.video-background {
+background: #000;
+position: fixed;
+top: 0; right: 0; bottom: 0; left: 0;
+z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+}
+#vidtop-content {
+top: 0;
+color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+.video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+.video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+a,h2 {
+color: #fff;
+text-decoration: none;
+}
+a:hover {
+color: #aaa;
+}
+
+h1{
+  color:#eee;
+  font-size:140px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  transform:rotate(-9deg);
+  margin-top:-75px;
+  cursor:default;
+  opacity:0.6;
+}
+
+#t {
+  z-index:-2;
+  font-size:520px;
+  color:#fff;
+  position:absolute;
+  top:-500px;
+  font-family: 'Heebo', sans-serif;
+  text-align:center;
+  opacity:0.0;
+  transform:rotate(-12deg);
+  transition:opacity 0.3s;
+}
+
+.menu {
+  font-size:30px;
+  transform:rotate(-7deg);
+  margin-top:-100px;
+}
+.menu i {
+  margin:15px;
+}
+.menu a {
+  color:#fff;
+  transition:color 0.5s, opacity 0.5s;
+  opacity:0.6;
+}
+.menu a:hover {
+  color:#FF0084;
+  opacity:0.8;
+}
+
+small {
+  color:#fff;
+  font-size:14px;
+  position:absolute;
+  bottom:20px;
+  left:20px;
+}
+small a {
+  color:#f3f3f3;
+  text-decoration:none;
+  transition:color 0.5s;
+}
+small a:hover {
+  color:#FF0084;
+}
