@@ -113,7 +113,7 @@ small a:hover {
     color: white;
 }
 
-controls {
+.controls {
   font-size:20px;
   margin:20px;
   opacity:0.6;
