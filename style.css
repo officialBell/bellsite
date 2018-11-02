@@ -112,3 +112,9 @@ small a:hover {
     text-align: center;
     color: white;
 }
+
+.controls {
+  font-size:20px;
+  margin:20px;
+  opacity:0.6;
+}
