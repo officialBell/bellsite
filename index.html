@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Include Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- Include Website Title -->
     <head>
@@ -18,30 +19,34 @@
         <div class="container">
             <img src="tgre2.gif" id="background">
         </div>
-        
+
         <!-- Include Audio -->
-        <audio autoplay loop autostart hidden>
-            <source src="tgmusic.mp3" type="mpeg">
-            <source src="tgmusic.wav" type="wav">
+        <audio src="music.mp3" id="q" autoplay loop>
         </audio>
+
+        <div class="controls">
+          <a onclick="document.getElementById('q').paused?document.getElementById('q').play():document.getElementById('q').pause()"><i class="fa fa-pause" aria-hidden="true"></i></a>
+          <a onclick="document.getElementById('q').volume -= 0.05"><i class="fa fa-volume-off" aria-hidden="true"></i></a>
+          <a onclick="document.getElementById('q').volume += 0.05"><i class="fa fa-volume-down" aria-hidden="true"></i></a>
+        </div>
         <!-- Include Header -->
         <table style="width: 99%; height:100%;">
             <tr>
                 <td style="text-align: center; vertical-align: middle; padding-top:20%;">
                     <h1>Bellez ❤</h1>
-                    
+
                     <!-- Menu -->
                     <div class="container">
                         <div class="menu">
                             <a onmouseover="t('DISCORD');document.getElementById('v').style.filter = 'blur(100px)';" onmouseleave="c();document.getElementById('v').style.filter = 'blur(0px)';" href="https://discord.gg/CgNqkyC" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i>
                             </a>
-                            
+
                             <a onmouseover="t('STEAM');document.getElementById('v').style.filter = 'blur(100px)';" onmouseleave="c();document.getElementById('v').style.filter = 'blur(0px)';" href="http://steamcommunity.com/id/Bellez" target="_blank"><i class="fab fa-steam" aria-hidden="true"></i>
                             </a>
-                            
+
                             <a onmouseover="t('YOUTUBE');document.getElementById('v').style.filter = 'blur(100px)';" onmouseleave="c();document.getElementById('v').style.filter = 'blur(0px)';" href="http://www.youtube.com/bellez" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
                             </a>
-                            
+
                             <a onmouseover="t('GITHUB');document.getElementById('v').style.filter = 'blur(100px)';" onmouseleave="c();document.getElementById('v').style.filter = 'blur(0px)';" href="https://github.com/officialBell" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>
                         </div>
                     </td>
@@ -57,5 +62,8 @@
                 <a href="https://www.youtube.com/watch?v=Vz6e-24Jhk8"<a tagrget"_blank"> audio
                 </a>
                 </small>
+
+
                 </body>
+
                 </html>
