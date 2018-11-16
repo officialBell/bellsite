@@ -1,5 +1,5 @@
 # bellsite
-My Website // Made by luby
+My Website
 Working on different designs of the website
 
 Actual Website:
