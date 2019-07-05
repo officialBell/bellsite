@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-color: #0F0F0F;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.gradient-container {
+    background: rgb(15, 15, 15);
+    height: 10%;
+    max-height: 10%;
+    border-collapse: collapse;
+    margin: 0;
+
+}
+.no-select {
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.gradient {
+    background: linear-gradient(270deg, #00ffbd, #001cff, #ff00b2, #ff0707);
+    background-size: 800% 800%;
+    height: 4px;
+    -webkit-animation: copyright-gradient 0s ease infinite;
+    -moz-animation: copyright-gradient 0s ease infinite;
+    -o-animation: copyright-gradient 0s ease infinite;
+    animation: copyright-gradient 0s ease infinite;
+    bottom: 0;
+    margin: 0;
+
+    @-webkit-keyframes copyright-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    @-moz-keyframes copyright-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    @-o-keyframes copyright-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    @keyframes copyright-gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+html, body {
+    height: 100%;
+}
+h1 { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400%;
+    color: white;
+}
+.title {
+    text-align: center;
+    vertical-align: auto;
+}
+.slogan { 
+    color: white;
+    margin: 16;
+    font-size: 140%;
+    font-family: 'Oswald', sans-serif;
+    filter: opacity(50%);
+}
