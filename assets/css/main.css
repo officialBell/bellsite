@@ -79,3 +79,68 @@ h1 {
     font-family: 'Oswald', sans-serif;
     filter: opacity(50%);
 }
+.team {
+    background-color: #181818;
+    border-radius: 5px;
+    width: 370px;
+    height: 585px;
+    padding: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    opacity: 0.85;
+   }
+   
+   .team img {
+    margin: auto;
+    border-radius: 150px;
+    border: 5px solid #202020;
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
+    height: 200px;
+    width: 200px;
+   }
+   
+   .team p {
+    font-size: 11.5px;
+    letter-spacing: 5px;
+    color: #606060;
+    font-style: normal;
+   }
+   
+   .team h1 {
+    text-shadow: 0px 0px 2px white,0px 0px 20px white,0px 0px 3px #553300,0px 0px 5px #553300;
+    padding: 5px;
+    font-size: 25px;
+   }
+
+   .center {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+   }
+   
+   .center-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   }
+   .infobox {
+    background-color: #191919;
+    border-radius: 5px;
+    width: 295px;
+    padding: 3.5px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    opacity: 0.85;
+   }
+   
