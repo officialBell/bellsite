@@ -221,3 +221,11 @@
    *,:after,::before {
     box-sizing: border-box
    }
+   .gradient-contain {
+    background: rgb(15, 15, 15);
+    height: 1%;
+    max-height: 1%;
+    border-collapse: collapse;
+    margin: 0;
+
+}
