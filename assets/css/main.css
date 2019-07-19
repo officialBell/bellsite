@@ -79,6 +79,22 @@ h1 {
     font-family: 'Oswald', sans-serif;
     filter: opacity(50%);
 }
+
+.middle_footer{
+  background-color: 181818;
+  border-radius: : 1px;
+  width: 1920px;
+  height: 700;
+  padding: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  opacity: 0.85;
+}
+
 .team {
     background-color: #181818;
     border-radius: 5px;
