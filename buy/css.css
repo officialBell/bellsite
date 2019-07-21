@@ -89,8 +89,8 @@
     border-radius: 10px;
     border: 2px solid #202020;
     color: white;
-    width: 525px;
-    height: 550px;
+    max-width: 1000px;
+    max-height: 700px;
     box-shadow: 0 50px 70px 0px rgba(0,0,0,0.8);
     opacity: 0.85;
    }
@@ -347,4 +347,5 @@
       .package h1 {
        text-shadow: 0px 0px 2px white,0px 0px 20px white,0px 0px 3px #553300,0px 0px 5px #553300;
       }
+
 }
