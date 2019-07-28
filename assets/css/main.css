@@ -82,9 +82,9 @@ h1 {
     filter: opacity(50%);
 }
 
-.middle_footer{
+.middle_footer {
   background-color: #181818;
-  border-radius: : 1px;
+  border-radius: 1px;
   width: 100%;
   height: 700px;
   padding: 30px;
@@ -404,8 +404,6 @@ h1 {
       .buybox a {
        color: white;
       }
-
-      }
       .switch {
        display: flex;
        align-items: center;
@@ -481,9 +479,9 @@ h1 {
         margin-top: 100px;
         margin-bottom: 150px;
       }
-      .team-space{
+      .team-space {
         background-color: #2e2e2e;
-        border-radius: : 1px;
+        border-radius:  1px;
         width: 100%;
         height: 700px;
         padding: 30px;
@@ -510,45 +508,3 @@ h1 {
         from { width: 0 }
         to { width: 100% }
       }
-      #staff {
-        background-image: url(../images/animation.gif);
-        background-repeat: no-repeat;
-        background-position: center;
-        user-select: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-      }
-      .dc {
-      	position: fixed;
-      	right: -200px;
-      	width: 260px;
-      	height: 100%;
-      	top: 0;
-      	z-index: 10;
-      	text-align: left;
-      }
-      .dc a {
-	color: #eeeeee;
-	margin-left: 11px;
-	display: block;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 40px;
-	letter-spacing: 0.1em;
-	text-decoration: none;
-	transition: 0.5s
-}
-.dc a:hover {
-	color: #ff94dd;
-	text-decoration: none;
-	transition: 0.5s
-}
-.dc, .body-push {
-	-webkit-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
-}
