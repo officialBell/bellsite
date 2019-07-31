@@ -101,6 +101,7 @@ h3{
   transform: translate(-50%, -50%);
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  z-index: 999;
 }
 
 /* Middle Footer */
