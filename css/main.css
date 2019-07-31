@@ -80,7 +80,7 @@ h3{
   font-family: 'Open Sans', sans-serif;
     font-size: 150%;
     color: white;
-    z-index: 1000px;
+    z-index: 1000;
 }
 .title {
     text-align: center;
@@ -326,6 +326,7 @@ h2 {
   transition: 0.5s;
   box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
   cursor: pointer;
+  z-index: 1000;
 }
    
    h2:hover {
